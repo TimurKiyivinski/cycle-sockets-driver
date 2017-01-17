@@ -1,0 +1,33 @@
+{
+  "name": "cycle-sockets-driver",
+  "version": "1.0.0",
+  "description": "Socket.io driver for Cycle.js with support for multiple sockets",
+  "main": "src/makeSocketsDriver.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimurKiyivinski/cycle-sockets-driver.git"
+  },
+  "keywords": [
+    "cycle",
+    "socket",
+    "socket.io",
+    "driver",
+    "cycle.js"
+  ],
+  "author": "Timur Kiyivinski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TimurKiyivinski/cycle-sockets-driver/issues"
+  },
+  "homepage": "https://github.com/TimurKiyivinski/cycle-sockets-driver#readme",
+  "devDependencies": {
+    "standard": "^8.6.0"
+  },
+  "dependencies": {
+    "socket.io-client": "^1.7.2",
+    "xstream": "^9.3.0"
+  }
+}
